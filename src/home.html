@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Info.</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <section class="container">
+       
+
+
+    </section>
+    <section id="mapBox">
+       <h2 style="color:rgb(164, 154, 210);"> Your Current Location</h2>
+        <iframe id="iFrame" width="60%" height="400px" frameborder="0" style="border:0"></iframe>
+   
+    </section>
+
+    <section id="moreInfo">
+        <h2>More Information About You</h2>
+        
+    </section>
+
+    <section class="offices">
+        <h2>Post Offices Near You</h2>
+        <input type="search" id="searchBar" oninput="renderSearch()" placeholder="Search Post Offices">
+        <div id="searchContainer">
+            
+        </div>
+        <div id="allpo">
+
+        </div>
+    </section>
+    
+
+
+
+    <script src="home.js"></script>
+</body>
+</html>
